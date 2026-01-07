@@ -1,0 +1,34 @@
+configuration {
+	font: "JetBrains Mono 14";
+	show-icons: true;
+	icon-theme: "Adwaita";
+	display-drun: "Applications:";	
+}
+
+window {
+	background-color: #0A1F44;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+mainbox {
+	padding: 5px;
+	border-radius: inherit;
+	background-color: #1E2C43;
+}
+
+listview {
+	lines: 8;
+	columns: 1;
+}
+
+prompt, entry {
+	color: #FFFFFF;
+}
+
+element {
+	padding: 5px;
+	border-radius: inherit;
+	background-color: #39475E;
+	color: #FFFFFF;
+}
